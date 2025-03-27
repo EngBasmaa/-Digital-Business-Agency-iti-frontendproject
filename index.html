@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-commerce Management Dashboard for efficient store management.">
+    <meta name="keywords" content="ecommerce, dashboard, management, analytics, sales">
+    <meta name="author" content=" Digital Business Agency">
+
+    <title>Digital Business Agency</title>
+
+    <link rel="icon" href="./imgs/logo-white.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/general-style.css">
+    <link rel="stylesheet" href="./styles/swiper.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./imgs/logo-white.png" alt="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="dark-toggle">
+            <button type="button" title="Toggle Theme" onclick="toggleTheme()"><i id="theme-toggle"
+                    class="fas fa-sun"></i></button>
+        </div>
+    </nav>
+
+    <header>
+        <section id="home" class="hero-section">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="./imgs/slider-img-1.jpg" alt="Slide 1">
+                    <div class="text-overlay">
+                        <h2>Creative Digital Business Agency</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, amet?</p>
+                        <div class="btns">
+                            <button type="button" title="Explore more" class="btn">Explore more</button>
+                            <button class="btn" type="button" title="Purchase" class="btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./imgs/slider-img-2.jpg" alt="Slide 2">
+                    <div class="text-overlay">
+                        <h2>Corporate Business Agency Solutions</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, amet?</p>
+                        <div class="btns">
+                            <button type="button" title="Explore more" class="btn">Explore more</button>
+                            <button class="btn" type="button" title="Purchase" class="btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./imgs/slider-img-3.jpg" alt="Slide 3">
+                    <div class="text-overlay">
+                        <h2>Join Us Today</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, amet?</p>
+                        <div class="btns">
+                            <button type="button" title="Explore more" class="btn">Explore more</button>
+                            <button class="btn" type="button" title="Purchase" class="btn">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+
+                <!-- Pagination (Rectangle Indicators) -->
+                <div class="pagination"></div>
+            </div>
+        </section>
+    </header>
+
+
+    <main>
+        <section id="about" class="about">
+            <section class="central-section">
+                <h1>Creative Digital Business Agency</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quis optio, reiciendis aspernatur
+                    corporis, at corrupti a quam explicabo tempore voluptas labore voluptatum beatae excepturi
+                    exercitationem similique aliquam. Ad, deserunt.
+                </p>
+            </section>
+
+            <section class="ideas section">
+
+                <div class="content">
+                    <h1>Creative Digital Business Agency</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quis optio, reiciendis
+
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quis optio, reiciendis
+                        Ad, deserunt. exercitationem similique aliquam. Ad, deserunt.
+                    </p>
+                </div>
+
+                <div class="container">
+                    <div class="image"></div>
+                </div>
+
+            </section>
+        </section>
+
+        <section id="services" class="services">
+            <section class="central-section">
+                <h2>We Provide Best Services</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quis optio, reiciendis aspernatur
+                    corporis, at corrupti a quam explicabo tempore voluptas labore voluptatum beatae excepturi
+                    exercitationem similique aliquam. Ad, deserunt.
+                </p>
+
+            </section>
+
+            <section class="cards">
+                <div class="section card">
+                    <div class="icon"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h5>Marketing Services</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        read more
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="section card">
+                    <div class="icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h5>Creative Idea Development</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        read more
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-headphones"></i></div>
+                    <h5>24/7 Call Center Service</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        read more
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-bell"></i></div>
+                    <h5>Social Media Marketing</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        read more
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h5>Corporate Business</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        read more
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-hexagon-nodes"></i></div>
+                    <h5>Cloud Computing Services</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        read more
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </section>
+        </section>
+
+        <section id="work" class="work">
+            ` <div class="work-image">
+                <img src="./imgs/download.png" alt="">
+            </div>
+
+            <div class="content">
+                <h2>Start Managing Your Apps Business</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quis optio, reiciendis
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quis optio, reiciendis
+                    Ad, deserunt. exercitationem similique aliquam. Ad, deserunt.
+                </p>
+                <div class="btns">
+                    <button type="button" title="Google play" class="btn">
+                        <i class="fa-solid fa-robot"></i>
+                        Google play
+                    </button>
+
+                    <button class="btn" type="button" title="Apple Store" class="btn">
+                        <i class="fa-solid fa-apple-whole"></i>
+                        Apple Store
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team">
+            <section class="central-section">
+                <h2>Meet Our Lovely Team</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quis optio, reiciendis aspernatur
+                    corporis, at corrupti a quam explicabo tempore voluptas labore voluptatum beatae excepturi
+                    exercitationem similique aliquam. Ad, deserunt.
+                </p>
+            </section>
+
+            <section class="team-cards">
+                <div class="team-card">
+                    <img src="./imgs/team-1.jpg" alt="Team Member">
+                    <h5>John Doe</h5>
+                    <div class="overlay">
+                        <h3>John Doe</h3>
+                        <p>Lead Developer</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="./imgs/team-2.jpg" alt="Team Member">
+                    <h5>Jane Smith</h5>
+                    <div class="overlay">
+                        <h3>Jane Smith</h3>
+                        <p>UI/UX Designer</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="./imgs/team-3.jpg" alt="Team Member">
+                    <h5>Mike Johnson</h5>
+                    <div class="overlay">
+                        <h3>Mike Johnson</h3>
+                        <p>Project Manager</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="clients" class="clients">
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide"><img src="./imgs/clients-logo-01.png" alt="Client 1"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-02.png" alt="Client 2"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-03.png" alt="Client 3"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-04.png" alt="Client 4"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-05.png" alt="Client 5"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-06.png" alt="Client 6"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-07.png" alt="Client 7"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-08.png" alt="Client 8"></div>
+
+                    <div class="slide"><img src="./imgs/clients-logo-01.png" alt="Client 1"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-02.png" alt="Client 2"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-03.png" alt="Client 3"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-04.png" alt="Client 4"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-05.png" alt="Client 5"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-06.png" alt="Client 6"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-07.png" alt="Client 7"></div>
+                    <div class="slide"><img src="./imgs/clients-logo-08.png" alt="Client 8"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <p>Have a question or a project in mind? Let’s talk.</p>
+
+            <form id="contactForm" class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <small class="error-message" id="nameError"></small>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <small class="error-message" id="emailError"></small>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+                <small class="error-message" id="messageError"></small>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+
+
+    </main>
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="./imgs/logo-white.png" alt="Company Logo">
+                <p>Your trusted partner in web development. Bringing ideas to life with innovation & technology.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-envelope"></i> info@yourcompany.com</p>
+                <p><i class="fa-solid fa-phone"></i> +123 456 7890</p>
+                <p><i class="fa-solid fa-map-marker-alt"></i> 123, Your Street, City</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 YourCompany. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
